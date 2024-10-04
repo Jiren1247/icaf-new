@@ -10,6 +10,11 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      // fontFamily: {
+      //   nunito: ["var(--font-nunito"],
+      //   montserrat: ["var(--font-montserrat)"],
+      //   openSans: ["var(--font-open-sans)"],
+      // },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -22,6 +27,7 @@ const config: Config = {
         "black": "#121212",
         "white": "#FFFFFF",
         "yellow":"#FFBC42",
+        "light-yellow": "#FFD743",
         "navy-blue":"#134380",
       },
     },
