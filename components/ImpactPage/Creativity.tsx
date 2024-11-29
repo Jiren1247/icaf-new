@@ -22,7 +22,7 @@ const Creativity = () => {
       color: "#D32413",
       datas: {
         header: "Reducing Poverty",
-        element: "We encourage creativity and innovation among children, which can lead to future opportunities in the creative industries. By nurturing their talents, the foundation helps children develop skills that can contribute to economic growth and reduce poverty.",
+        element: "ICAF fosters creativity to empower low-income students to blaze new trails that can disrupt the vicious cycle of inherited poverty.",
       },
       Icon: ReducingPoverty,
     },
@@ -30,7 +30,7 @@ const Creativity = () => {
       color: "#FFB505",
       datas: {
         header: "Providing Quality Education",
-        element: "We offer art programs that complement traditional education, promoting creativity, critical thinking, and emotional intelligence. These programs provide quality educational experiences that empower children to think beyond conventional learning.",
+        element: "ICAF has pioneered STEAMS education to integrate Art and Sports with STEM disciplines for students’ holistic development.",
       },
       Icon: Education,
     },
@@ -38,7 +38,7 @@ const Creativity = () => {
       color: "#834CAD",
       datas: {
         header: "Reducing Inequities",
-        element: "Our global reach ensures that children from diverse backgrounds, including those in underserved communities, have access to art education and creative opportunities. This helps bridge the gap between different socioeconomic groups and promotes inclusivity.",
+        element: "ICAF bridges the gap between different socioeconomic groups by bringing them together at its festivals to promote understanding and inclusivity.",
       },
       Icon: ReducingInequities,
     },
@@ -46,7 +46,7 @@ const Creativity = () => {
       color: "#2057CC",
       datas: {
         header: "Promoting Good Health",
-        element: "ICAF recognizes the therapeutic benefits of art in promoting mental and emotional well-being. By engaging children in creative activities, the foundation contributes to their overall health, helping them express emotions, reduce stress, and build resilience.",
+        element: "ICAF's Arts Olympiad reframes students' identity as “artist athletes” with creative minds and healthy bodies.",
       },
       Icon: Health,
     },
@@ -54,7 +54,7 @@ const Creativity = () => {
       color: "#168C39",
       datas: {
         header: "Ensuring Gender Equality",
-        element: "We promote equal participation of boys and girls in its programs, ensuring that all children, regardless of gender, have equal opportunities to develop their artistic talents and express their creativity.",
+        element: "Any student, regardless of gender, can participate in ICAF programs to develop artistic talents and express creativity.",
       },
       Icon: Gender,
     },
@@ -62,7 +62,7 @@ const Creativity = () => {
       color: "#D32413",
       datas: {
         header: "Building Peace",
-        element: "Through global art exhibitions and collaborations, we foster cross-cultural understanding and dialogue among children. By encouraging them to create art that reflects their experiences and aspirations, the foundation helps build a culture of peace and tolerance from a young age.",
+        element: "ICAF builds a culture of peace and tolerance by fostering mutual empathy and its Peace through Art Programs disrupt the intergenerational transmission of trauma and hatred which perpetuates conflicts.",
       },
       Icon: BuildingPeace,
     }
@@ -72,7 +72,7 @@ const Creativity = () => {
     <section className="mb-24 relative z-0 m-auto max-w-screen-2xl px-8 md:px-12 lg:px-16 xl:px-20">
       <h1 className='font-extrabold font-montserrat text-[32px] lg:text-[40px] text-center text-black'>Building a Better World with Creativity</h1>
       <div className='mt-10 font-openSans text-black font-normal text-xl text-left'>
-        <p>At ICAF, we're working to make the world more peaceful, prosperous, and sustainable. We believe that helping kids grow creatively and empathetically can help achieve six important goals set by the United Nations. These goals include:</p>
+        <p>Our work is essential for "a more perfect union" and promotes the UN Sustainable Development Goals (SDGs).</p>
       
         <div className="mt-16 grid grid-cols-2 lg:grid-cols-3 gap-8">
           {list.map((item, index) => (

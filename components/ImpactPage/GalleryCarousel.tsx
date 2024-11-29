@@ -14,17 +14,17 @@ const GalleryCarousel = () => {
   const cards = [
     {
       backgroundColor: "#FFECCB",
-      title: "Child Art Exhibitions",
+      title: "Interactive Exhibitions",
       description:
-        "We lead the world in showcasing children's art. Kids express their imagination through their artwork, offering a pure and honest perspective that can inspire us all.",
+        "As a world leader in children's art exhibitions, ICAF introduces people to the imagination of the world's children",
       image: "/impactPage/exhibitions.png",
       icon: <Palette />,
     },
     {
       backgroundColor: "#BFD0F2",
-      title: "Children's Panels at Major Conferences",
+      title: "Youth Panels at Major Conferences",
       description:
-        "We train and select talented young panelists to discuss important issues that affect the future, making sure their voices are heard.",
+        "ICAF brings the next generation's perspectives to business leaders and policymakers.",
       image: "/impactPage/placeholder.png",
       icon: <Duo />,
     },
@@ -32,7 +32,7 @@ const GalleryCarousel = () => {
       backgroundColor: "#E7BDB9",
       title: "World Children's Award",
       description:
-        "Since 2007, we've honored business and cultural leaders chosen by children. Past winners include LEGO, the Swatch Group, and the W. K. Kellogg Foundation, with awards designed by renowned artists like Karim Rashid and Tiffany & Company.",
+        "ICAF provides children the opportunity to uniquely honor inspirational leaders, educators, organizations, and corporations.",
       image: "/landingPage/WorldChildrensAward.jpg",
       icon: <Award />,
     },
@@ -55,7 +55,7 @@ const GalleryCarousel = () => {
   return (
     <div className="relative z-0 m-auto max-w-screen-2xl px-8 md:px-12 lg:px-16 xl:px-20">
       <h2 className="font-extrabold font-montserrat text-2xl lg:text-4xl text-center text-black mb-8">
-        Bringing Children's Voices to the World
+      Uplifting Children's Voices
       </h2>
 
       {/* Carousel Wrapper */}
