@@ -70,7 +70,7 @@ const Creativity = () => {
 
   return (
     <section className="mb-24 relative z-0 m-auto max-w-screen-2xl px-8 md:px-12 lg:px-16 xl:px-20">
-      <h1 className='font-extrabold font-montserrat text-[32px] lg:text-[40px] text-center text-black'>Building a Better World with Creativity</h1>
+      <h1 className='font-extrabold font-montserrat text-[32px] lg:text-[40px] text-center text-black'>Building a Creative and Empathic Future</h1>
       <div className='mt-10 font-openSans text-black font-normal text-xl text-left'>
         <p>Our work is essential for "a more perfect union" and promotes the UN Sustainable Development Goals (SDGs).</p>
       
