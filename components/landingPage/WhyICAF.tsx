@@ -32,7 +32,7 @@ const WhyICAF = () => {
                 <h2 className="ml-5 text-blue text-2xl lg:text-4xl font-semibold font-montserrat">Mission</h2>
               </div>
               <p className="mt-4 text-base text-black font-normal font-openSans lg:w-2/3">
-                To seed imagination, cultivate their creativity, and grow empathy for "a more perfect union."
+                To seed children's imagination, cultivate their creativity, and grow empathy for "a more perfect union."
               </p>
             </div>
             <div className="mt-8 block lg:hidden px-6">
@@ -41,7 +41,7 @@ const WhyICAF = () => {
                 <h2 className="ml-5 text-main-red text-2xl font-semibold font-montserrat">Vision</h2>
               </div>
               <p className="mt-4 text-base text-black font-normal font-openSans">
-                To democratize creativity and mainstream empathy for a more peaceful, prosperous, and sustainable future.
+                To democratize creativity and mainstream empathy for a peaceful, prosperous, and sustainable future.
               </p>
             </div>
             
@@ -62,7 +62,7 @@ const WhyICAF = () => {
                 <h2 className="ml-5 text-main-red text-4xl font-semibold font-montserrat">Vision</h2>
               </div>
               <p className="mt-4 text-base text-black font-normal font-openSans w-2/3">
-                To democratize creativity and mainstream empathy for a more peaceful, prosperous, and sustainable future.
+                To democratize creativity and mainstream empathy for a peaceful, prosperous, and sustainable future.
               </p>
             </div>
           </div>

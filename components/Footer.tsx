@@ -24,7 +24,7 @@ const Footer = () => {
       <div className="mx-5% sm:mx-auto sm:max-w-sm md:max-w-full lg:max-w-screen-2xl flex flex-wrap gap-y-10 pt-12 pb-10 px-8 md:px-12 lg:px-16 xl:px-20 justify-between">
         
         <div className="space-y-3 w-full md:w-2/5 max-w-sm lg:w-30% text-sm text-white col-span-2 md:order-1 md:col-span-3">
-          <p>Get our quarterly newsletter</p>
+          <p>Get our Sketches newsletter</p>
           <div className="flex flex-wrap gap-1 items-center text-stone-700 focus-within:text-stone-900">
             <div className="flex flex-auto">
               <input 
@@ -62,10 +62,12 @@ const Footer = () => {
 
         <div className="text-sm w-full max-w-sm md:order-2 md:w-1/4 md:pl-11 lg:w-1/5 lg:pl-0 lg:w-auto text-white">
           <ol className="grid grid-cols-2 gap-y-5 md:gap-y-3 md:grid-cols-1">
-            <div className="break-words"><Link href="/faq">FAQ's</Link></div>
-            <div className="break-words"><a href="https://icaf.org/about/contact-us" target="blank" rel="noopener noreferrer">Contact Us</a></div>
+            <div className="break-words"><Link href="/faq">FAQs</Link></div>
+            <div className="break-words"><a href="https://icaf.org/about/contact-us" target="blank" rel="noopener noreferrer">Contact ICAF</a></div>
             <div className="break-words"><a href="https://icaf.org/resource/documents/ICAF.website.-.Terms.of.Use.pdf">Terms of use</a></div>
             <div className="break-words"><a href="https://icaf.org/resource/documents/ICAF.website.-.Privacy.Policy.pdf">Privacy policy</a></div>
+            <div className="break-words"><a href="https://icaf.org/resource/documents/ICAF.website.-.Privacy.Policy.pdf">COPPA Notice</a></div>
+            <div className="break-words"><a href="https://icaf.org/resource/documents/ICAF.website.-.Privacy.Policy.pdf">Cookie Settings</a></div>
           </ol>
         </div> 
 
