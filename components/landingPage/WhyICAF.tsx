@@ -16,7 +16,7 @@ const WhyICAF = () => {
           height={64}
           className='absolute right-1/3 -top-12 hidden lg:block'
         />
-        <h2 className='text-center text-[32px] lg:text-[40px] font-extrabold font-montserrat z-100 col-span-2 mb-10 lg:mb-20'>Why ICAF?</h2> 
+        <h2 className='text-center text-[32px] lg:text-[40px] font-extrabold font-montserrat z-100 col-span-2 mb-10 lg:mb-20'>Systemic Change</h2> 
         <div className="m-auto max-w-screen-2xl px-8 md:px-12 lg:px-16 xl:px-20 grid grid-cols-1 lg:grid-cols-2 gap-8 relative">
           <div className="relative h-[400px]">
             <Image 
@@ -41,7 +41,7 @@ const WhyICAF = () => {
                 <h2 className="ml-5 text-main-red text-2xl font-semibold font-montserrat">Vision</h2>
               </div>
               <p className="mt-4 text-base text-black font-normal font-openSans">
-                To democratize creativity and mainstream empathy for a peaceful, prosperous, and sustainable future.
+                To democratize creativity and mainstream empathy to build a better world.
               </p>
             </div>
             
@@ -62,7 +62,7 @@ const WhyICAF = () => {
                 <h2 className="ml-5 text-main-red text-4xl font-semibold font-montserrat">Vision</h2>
               </div>
               <p className="mt-4 text-base text-black font-normal font-openSans w-2/3">
-                To democratize creativity and mainstream empathy for a peaceful, prosperous, and sustainable future.
+                To democratize creativity and mainstream empathy to build a better world.
               </p>
             </div>
           </div>

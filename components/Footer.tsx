@@ -92,7 +92,7 @@ const Footer = () => {
         </div> 
 
         <div className="bg-[#134380] order-5 lg:mx-80 max-w-sm md:max-w-full md:w-screen grid grid-cols-1 place-items-center font-light text-xs text-white">
-          © 1997-2024 International Child Art Foundation | 2549 Virginia Avenue, NW, Washington, DC 20037, USA
+          © 1997-2025 International Child Art Foundation P O Box S8133 | Washington, DC 20037, USA
         </div>
       </div>
     </footer>

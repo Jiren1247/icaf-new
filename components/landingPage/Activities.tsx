@@ -31,13 +31,13 @@ const Activities = () => {
     },
     {
       backgroud: ChildrenPanelConferences,
-      header: "Youth Panels at Conferences",
+      header: "Youth Panels",
       element: "Giving voice to children and galvanizing adults",
     },
     {
       backgroud: ChildArtMagazine,
       header: "Quarterly Magazine",
-      element: "Arts learning and global competency distributed quarterly",
+      element: "Creative & empathic development as global competencies",
     },
     {
       backgroud: HealingArts,
@@ -47,12 +47,12 @@ const Activities = () => {
     {
       backgroud: WorldChildrensAward,
       header: "World Children's Award",
-      element: "For leaders most loved by children",
+      element: "Children honoring the leaders they adore",
     },
     {
       backgroud: ResearchAndNewLearning,
-      header: "Research and new learning",
-      element: "Research on children and their art & future",
+      header: "Research and Pedagogy",
+      element: "New learning for a holistic education",
     },
 
   ];
@@ -69,7 +69,7 @@ const Activities = () => {
 
   return (
     <section className="mt-32 m-auto max-w-screen-2xl px-8 md:px-12 lg:px-16 xl:px-20">
-      <h1 className="mb-10 font-extrabold font-montserrat text-2xl lg:text-4xl text-center text-black">Plan of Action</h1>
+      <h1 className="mb-10 font-extrabold font-montserrat text-2xl lg:text-4xl text-center text-black">Activities & Expertise</h1>
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
         {list.map((item, index) => (
           <AccordionCard
