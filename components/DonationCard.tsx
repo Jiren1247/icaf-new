@@ -1,19 +1,21 @@
 import React, { useEffect, useRef, useState } from 'react';
 import Button from './Button';
 import Image from 'next/image';
+import { HeartIcon } from "../public/svgs/HeartIcon";
 
 const DonationCard = () => {
   return(
     <>
-      <div className='z-20 px-12 rounded-3xl bg-blue bg-opacity-10'>
+      <div className='z-20 px-12 rounded-3xl bg-blue bg-opacity-10 w-full'>
         <h2 className='pt-14 font-montserrat font-semibold text-2xl text-left w-full md:w-3/4'>
           Help the children change the world. 
         </h2>
         <div className='mt-4 pb-14 gap-x-5 sm:w-2/3 md:w-1/2 lg:w-1/3 2xl:w-1/4'>
           <Button
             bgColor="bg-yellow"
-            textColor="text-black w-full"
+            textColor="text-black w-full group"
             link="/"
+            icon={<HeartIcon />}
           >
             Donate
           </Button>

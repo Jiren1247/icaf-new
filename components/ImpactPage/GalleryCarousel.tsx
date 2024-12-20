@@ -55,7 +55,7 @@ const GalleryCarousel = () => {
   return (
     <div className="relative z-0 m-auto max-w-screen-2xl px-8 md:px-12 lg:px-16 xl:px-20">
       <h2 className="font-extrabold font-montserrat text-2xl lg:text-4xl text-center text-black mb-8">
-      Uplifting Children's Voices
+        Mainstream Empathy
       </h2>
 
       {/* Carousel Wrapper */}

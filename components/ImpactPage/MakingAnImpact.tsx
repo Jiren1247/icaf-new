@@ -7,7 +7,7 @@ import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 
   return (
     <div className="mt-24 mb-40 sm:mt-32 md:mt-36 m-auto max-w-screen-2xl px-8 md:px-12 lg:px-16 xl:px-20">
-      <h1 className="font-extrabold font-montserrat text-2xl lg:text-4xl text-center text-black">Mushrooming Happiness</h1>
+      <h1 className="font-extrabold font-montserrat text-2xl lg:text-4xl text-center text-black">To Democratize Creativity</h1>
       <p className='mt-10 xl:mt-8 2xl:mt-6 text-base md:text-xl font-normal text-black font-openSans text-left lg:text-center'>ICAF boosts children's confidence and self-esteem by appraising their art as the most honest and pure form of human creative expression. ICAF also kindles the inner child in adults to spark their creativity and empathy.</p>
       <div className="mt-20 grid gap-x-8 grid-cols-1 lg:grid-cols-2">
         <Image 
