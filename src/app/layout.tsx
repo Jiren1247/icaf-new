@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter, Montserrat, Open_Sans, Nunito } from "next/font/google";
 import { sharedOpenGraph } from "./shared-metadata";
+import NavigationBar from '../../components/NavigationBar';
+import Footer from '../../components/Footer'
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -32,9 +34,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      
       <body className={`${inter.className} ${montserrat.variable} ${openSans.variable} ${nunito.variable}`}>
-        {children}
+        <NavigationBar />
+          {children}
+        <Footer />
       </body>
+      
     </html>
   );
 }

@@ -70,14 +70,14 @@ const SpecialProjects = () => {
           <ProjectCard  
             background={WorldChildrenFestival2025}
             title="World Children's Festival"
-            element="A celebration of American values of creativity, diversity, and unity"
+            element="& America's 250th Celebration"
             link="http://WorldChildrensFestival.org"
             borderColor="border-red"
           />
           <ProjectCard  
             background={MyFavoriteSport2024}
             title="My Favorite Sport"
-            element="A global art contest on youth people's favorite sports"
+            element="A global art contest that combines art and sports"
             link="http://MyFavoriteSport.org"
             borderColor="border-blue"
           />

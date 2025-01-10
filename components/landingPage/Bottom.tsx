@@ -15,6 +15,7 @@ import k from '../../public/landingPage/carousel/k.jpg';
 import l from '../../public/landingPage/carousel/l.png';
 import m from '../../public/landingPage/carousel/m.jpg';
 import Image from "next/image";
+import DonationCard from '../DonationCard';
 
 const Bottom = () => {
   const images = [a, b, c, d, e, f, g, h, i, j, k, l, m];
@@ -50,28 +51,7 @@ const Bottom = () => {
 
   return (
     <section className='relative z-30 m-auto max-w-screen-2xl px-8 md:px-12 lg:px-16 xl:px-20'>
-      <div className='px-12 rounded-3xl bg-blue bg-opacity-10'>
-        <h2 className='pt-28 font-montserrat font-semibold text-2xl text-left w-full md:w-3/4'>
-          Help bring the arts to schools and shape a more creative and empathic future with your donation today. 
-        </h2>
-        {/* <div className='mt-12 pb-28 grid grid-cols-2 gap-x-5 sm:w-2/3 md:w-1/2 lg:w-1/3 2xl:w-1/4'> */}
-        <div className='mt-4 pb-28 gap-x-5 sm:w-2/3 md:w-1/2 lg:w-1/3 2xl:w-1/4'>
-          <Button
-            bgColor="bg-yellow"
-            textColor="text-black w-full"
-            link="/"
-          >
-            Donate
-          </Button>
-          {/* <Button
-            bgColor="bg-navy-blue"
-            textColor="text-white w-full"
-            link="/"
-          >
-            Contact Us
-          </Button> */}
-        </div>
-      </div>
+      <DonationCard />
 
       <div 
         ref={scrollRef} 
@@ -88,14 +68,6 @@ const Bottom = () => {
           />
         ))}
       </div>
-
-      <Image 
-        src="/landingPage/RedAndBlueFirework.png"
-        alt="Red and Blue Firework"
-        className="z-10 absolute right-0 -top-[50px] xsm:-top-[100px] md:top-64 lg:top-56 lg:right-2 xl:top-36 max-w-[300px] w-1/3 sm:w-1/4 2xl:w-1/5"
-        width={300}
-        height={300}
-      />
     </section>
   );
 };
