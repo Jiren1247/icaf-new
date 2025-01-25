@@ -14,7 +14,6 @@ function MagazinePage() {
         <BackIssues />
         <Testimonial />
         <Donate />
-        <Footer />
     </div>
   )
 }

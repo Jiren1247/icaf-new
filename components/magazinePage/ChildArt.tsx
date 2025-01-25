@@ -9,7 +9,7 @@ import favorite from "../../public/MagazinePage/favorite.png";
 
 function ChildArt() {
   return (
-    <div className="relative overflow-x-hidden overflow-y-hidden pb-48">
+    <div className="relative overflow-x-hidden overflow-y-hidden pb-48 pt-24">
         <div className="z-0">
             <Image src={heading} alt="" className="absolute"></Image>
             <Image src={graySquare} alt="" className="absolute"></Image>
