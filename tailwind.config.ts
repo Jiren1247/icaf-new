@@ -23,6 +23,7 @@ const config: Config = {
         nunito: ['var(--font-nunito)', 'sans-serif'],
       },
       screens: {
+        "xxsm":"320px",
         "xsm": "468px",
       },
       spacing:{
@@ -36,6 +37,10 @@ const config: Config = {
         "blue": "#2057CC",
         "navy-blue":"#134380",
         "main-red": "#DA1E40",
+        "navy":"#134380"
+      },
+      lineHeight: {
+        'extra-loose': '4.5rem',
       },
     },
   },
